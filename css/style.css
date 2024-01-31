@@ -1,0 +1,82 @@
+header {
+    background: #009999;
+    color: #ffffcc;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: larger;
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 90.5%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 30%;
+    margin-left: 15px;
+}
+
+.index-EWD {
+    list-style: upper-roman;
+}
+
+.index-EWD a {
+    text-decoration: none;
+}
+
+
+.index-EWD a:hover {
+    text-decoration: underline;
+}
+
+.other {
+    list-style: none;
+    margin-right: auto;
+}
+
+section {
+    display: flex;
+    width: 70%;
+    border: 1px solid #000;
+    flex-wrap: wrap;
+    background: #ffffcc;
+}
+
+section img {
+    width: 45%;
+    border: 2px ridge #f2f2f2;
+    height: fit-content;
+    margin: 20px;
+}
+
+section>p {
+    width: 40%;
+    margin: 25px;
+    height: fit-content;
+}
+
+section ul {
+    width: 40%;
+}
+
+.horizontal {
+    width: 90%;
+}
+
+.TheManuscript {
+    width: 90%;
+    margin-left: 30px;
+}
+
+.Indices {
+    width: 90%;
+    margin-left: 30px;
+}
